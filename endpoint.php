@@ -1,14 +1,13 @@
 <?php
 
 require "vendor/autoload.php";
-
-if (file_exists("config.php"))
-  include "config.php";           // Set $room and $api_key here if desired
-
 use PageBoost\HipChatV2\HipChat;
 
 $room = "";
 $api_key = "";
+
+if (file_exists("config.php"))
+  include "config.php";           // Set $room and $api_key here if desired
 
 $incoming = json_decode($_REQUEST['message']);
 
