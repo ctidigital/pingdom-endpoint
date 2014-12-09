@@ -1,0 +1,6 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "~4.0",
+        "page-boost/hipchat-php-v2": "dev-master"
+    }
+}
