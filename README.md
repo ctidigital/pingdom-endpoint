@@ -1,2 +1,5 @@
-JSON format:
-[message] => {"check": "1443232", "checkname": "Endpoint Test", "host": "www.google.com", "action": "notify_of_close", "incidentid": 12, "description": "down"}
+Basic PHP script to act as a Pingdom end-point.
+
+Currently forwards the message from Pingdom to HipChat.
+
+Next: create a JIRA ticket from the incoming request, too.
